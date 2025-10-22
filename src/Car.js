@@ -1,4 +1,4 @@
-import { MOVE_THRESHOLD } from "../constants";
+import { MOVE_THRESHOLD } from "./constants/constants";
 import { Random } from "@woowacourse/mission-utils";
 
 export default class Car {
