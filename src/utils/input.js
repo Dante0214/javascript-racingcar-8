@@ -1,6 +1,6 @@
 import { Console } from "@woowacourse/mission-utils";
-import { validateNames, validateTryCount } from "./utils/validator.js";
-import { MESSAGES } from "./constants/constants.js";
+import { validateNames, validateTryCount } from "./validator.js";
+import { MESSAGES } from "../constants/constants.js";
 
 export async function getCarNames() {
   const nameInput = await Console.readLineAsync(
