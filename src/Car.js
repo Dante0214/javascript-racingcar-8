@@ -1,4 +1,4 @@
-import { MOVE_THRESHOLD } from "./constants/constants";
+import { MOVE_THRESHOLD } from "./constants/constants.js";
 import { Random } from "@woowacourse/mission-utils";
 
 export default class Car {
@@ -16,5 +16,12 @@ export default class Car {
   }
   getStatus() {
     return `${this.#name} : ${"-".repeat(this.#position)}`;
+  }
+  getPosition() {
+    return this.#position;
+  }
+
+  getName() {
+    return this.#name;
   }
 }
